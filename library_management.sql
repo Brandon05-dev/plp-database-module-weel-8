@@ -58,4 +58,4 @@ CREATE TABLE books_authors (
     CONSTRAINT fk_ba_author FOREIGN KEY (author_id) REFERENCES authors(author_id)
 );
 
--- End of Schema
+
